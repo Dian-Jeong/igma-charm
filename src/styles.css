@@ -132,6 +132,10 @@
   --sidebar-ring: oklch(0.551 0.027 264.364);
 }
 
+@theme inline {
+  --font-pretendard: "Pretendard", "Pretendard Variable", -apple-system, BlinkMacSystemFont, system-ui, sans-serif;
+}
+
 @layer base {
   * {
     border-color: var(--color-border);
@@ -140,5 +144,6 @@
   body {
     background-color: var(--color-background);
     color: var(--color-foreground);
+    font-family: var(--font-pretendard);
   }
 }
