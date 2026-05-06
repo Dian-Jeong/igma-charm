@@ -6,7 +6,7 @@ export const Route = createFileRoute("/")({
   component: SignInPage,
   head: () => ({
     meta: [
-      { title: "하트캐치 — 파트너의 마음을 알려주는 AI" },
+      { title: "하트캐치 — 파트너의 마음을 알려줘요" },
       { name: "description", content: "하트캐치: 파트너의 마음을 알려주는 AI 서비스입니다." },
     ],
   }),
@@ -25,7 +25,7 @@ function SignInPage() {
               <h1 className="text-[80px] leading-[48px] font-medium text-[#303030] m-0">캐치</h1>
             </div>
             <p className="text-[22px] text-[#303030] tracking-[4px] leading-4">
-              파트너의 마음을 알려주는 AI
+              파트너의 마음을 알려줘요
             </p>
           </div>
         </section>
