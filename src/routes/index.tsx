@@ -17,7 +17,7 @@ function SignInPage() {
     <main className="min-h-screen w-full bg-[#f9f9f9] flex justify-center font-pretendard">
       <div className="relative w-full max-w-[460px] px-[35px] pt-[121px] pb-10">
         <section className="flex flex-col gap-5">
-          <p className="text-[16px] text-[#808080] tracking-[4px] leading-4">HARTCATCH</p>
+          <p className="text-[16px] text-[#808080] tracking-[4px] leading-4">HEARTCATCH</p>
           <div className="flex flex-col gap-5">
             <div className="flex items-center gap-[5px]">
               <h1 className="text-[80px] leading-[48px] font-medium text-[#303030] m-0">하트</h1>
